@@ -9,6 +9,9 @@ namespace exam8.model
         public string PersonalCode { get; set; }
         public string SerialNumber { get; set; }
         public bool IsActive { get; set; }
+
+        public int CoustomrId { get; set; }
+        public Coustomer Coustomer { get; set; }
        
         public ICollection<User> users { get; set; }
        
