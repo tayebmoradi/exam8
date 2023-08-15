@@ -7,6 +7,7 @@
         public string Email { get; set; }
         public string Password { get; set; }
 
-        public Periode Periode { get; set; }
+        public int PeriodId{ get; set; }
+        public Period Period { get; set; }
     }
 }

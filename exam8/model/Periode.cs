@@ -10,7 +10,7 @@ namespace exam8.model
         public string SerialNumber { get; set; }
         public bool IsActive { get; set; }
        
-
+        public ICollection<User> users { get; set; }
        
 
     }
