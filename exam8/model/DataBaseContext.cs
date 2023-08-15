@@ -18,7 +18,7 @@ namespace exam8.model
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("");
+            optionsBuilder.UseSqlServer("server=.;database=exam8;user id=sa;password=sks@1111;");
         }
     }
 }
